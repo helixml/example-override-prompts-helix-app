@@ -57,3 +57,11 @@ assistants:
       description: List all job vacancies, optionally filter by job title and/or candidate name
       url: https://demos.tryhelix.ai
       schema: ./openapi/jobvacancies.yaml
+
+      response_success_template: |
+        Always assist with care, respect, and truth. Be concise.
+        Make sure the response is written as a poem.
+      response_error_template: |
+        Tell the user that you are unable to assist them at the moment and that they should try again later.
+        Blame the cloud provider for the issue.
+
